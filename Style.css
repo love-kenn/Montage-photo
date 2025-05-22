@@ -1,0 +1,49 @@
+/* 🌄 Fond avec dégradé et typographie élégante */
+body {
+  margin: 0;
+  font-family:'Segoe UI',sans-serif;
+  background:linear-gradient(135deg, #ff40fcb4,#ff000ac8 ,#ff40fcb4);
+  color: #fff;
+}
+
+/* 🔝 En-tête */
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+}
+
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background-color: #eaffbf;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card p {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #333;
+}
